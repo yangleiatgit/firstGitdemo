@@ -20,6 +20,7 @@ public class UsersController {
 		System.out.println("user.show.. yanglei");
 		model.addAttribute("list", usersServiceImpl.show());
 		System.out.println(123);
+		System.out.println("helloworld");
 		return "list";
 	}
 }
